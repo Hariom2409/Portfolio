@@ -387,7 +387,7 @@ span{
 }
 .skill-box .skill-info{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     text-align: center;
     max-height: 175px;
     justify-content: center;
@@ -409,4 +409,44 @@ span{
     padding-top: 5px;
     margin-bottom: 5px;
     font-size: 1.25rem;
+}
+
+
+/*PROJECT SECTION BEGINS HEREEEEEEE!!*/
+
+.project-item{
+    width: 650px;
+    height: 350px;
+    background-image: linear-gradient(163deg, #00ffee 10%, #00ff99 100%);
+    border-radius: 20px;
+    transition: 0.4s ease-in-out;
+}
+.project-item1{
+    width: 650px;
+    height: 350px;
+    background-color: #1a1a1a;
+    border-radius: ;
+    transition: all 0.3s;
+}
+.project-item1:hover{
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+.project-item:hover{
+    box-shadow: 0 0 25px var(--main-color);
+}
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.project-details{
+    justify-content: end;
+    align-items:end;
+    height: 200px;
+    width: 648px;
+    background-color: var(--second-bg-color);
+    color: #00ffee;
 }
