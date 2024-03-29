@@ -427,7 +427,6 @@ span{
     width: auto;
     height: 350px;
     background-color: #1a1a1a;
-    border-radius: ;
     transition: all 0.3s;
 }
 .project-item1:hover{
