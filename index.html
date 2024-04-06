@@ -8,6 +8,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">   
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                    publicKey: "ETAMxBU7Hb_VqRYOg",
+                });
+            })();
+        </script>
+
     </head>
     <body>
         <header class="header">
@@ -214,17 +225,15 @@
             <form action="">
                 <div class="input-group">
                     <div class="input-box">
-                        <input type="text" placeholder="Full Name">
-                        <input type="email" placeholder="Email">
-                    </div>
-                    <div class="input-box">
-                        <input type="number" placeholder="Phone Number">
-                        <input type="text" placeholder="Subject">
+                        <input type="text" id="user_name" placeholder="Full Name">
+                        <input type="email" id="user_mailid" placeholder="Email">
+                        <input type="number" id="user_pno" placeholder="Phone Number">
+                        <input type="text" id="user_sub" placeholder="Subject">
                     </div>
                 </div>
                 <div class="input-group-2">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                    <input type="submit" value="Send Message" class="btn">
+                    <textarea name="" id="user_message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn" onclick="Sendmail()">
                 </div>
             </form>
         </section>
