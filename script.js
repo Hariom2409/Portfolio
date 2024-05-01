@@ -25,6 +25,7 @@ menuIcon.onclick=()=>{
 }
 
 
+###mail service
 
 function Sendmail(){
     var params = {
