@@ -24,9 +24,7 @@ menuIcon.onclick=()=>{
     navbar.classList.toggle('active');
 }
 
-
-###mail service
-
+--mailservice-goes-here
 function Sendmail(){
     var params = {
         user_name: document.getElementById("user_name").value,
