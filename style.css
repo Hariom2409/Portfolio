@@ -616,6 +616,12 @@ span{
     .footer{
         padding: 2rem 3%;
     }
+    .project-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap: 2.5rem;
+    }
 }
 @media(max-width:600px){
     #menu-icon{
