@@ -446,7 +446,7 @@ span{
 .project-details{
     justify-content: end;
     align-items:end;
-    height: 200px;
+    height: auto;
     width: auto;
     background-color: var(--second-bg-color);
     color: #00ffee;
@@ -456,7 +456,14 @@ span{
     width: 100%;
 }
 
+.proj4img{
+    width: 100%;
+    height: 60%;
+}
 
+.projhead{
+    font-size: 25px;
+}
 
 
 
