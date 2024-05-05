@@ -444,12 +444,13 @@ span{
 }
 
 .project-details{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
     justify-content: end;
     align-items:end;
-    height: auto;
-    width: auto;
-    background-color: var(--second-bg-color);
-    color: #00ffee;
+    font-size: 14px;
+    color: azure;
 }
 .Projects{
     background-color: var(--second-bg-color);
@@ -457,12 +458,16 @@ span{
 }
 
 .proj4img{
+    margin-top: 1px;
+    border-radius: 20px;
     width: 100%;
     height: 60%;
 }
 
 .projhead{
     font-size: 25px;
+    color: rgb(255, 255, 148);
+    margin-left: 10px;
 }
 
 
