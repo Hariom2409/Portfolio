@@ -19,5 +19,3 @@ Welcome to my digital portfolio, where creativity meets functionality! Crafted w
 Explore, engage, and discover the possibilities within my digital world. Welcome to my portfolio – where creativity meets innovation, and possibilities are limitless.
 
 --- 
-
-Feel free to customize and adjust this description to better suit your own style and the specific features of your portfolio!
